@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>rushi</title>
+	<style>
+		.Box{
+			background-color: blue;
+			height: 100px;
+			width: 100px;
+			animation-name: BOXC;
+			animation-iteration-count: infinite;
+			animation-delay: 3s;
+			animation-duration: 5s;
+			position: absolute;
+			animation-direction: reverse;
+			animation-timing-function: linear;
+
+		}
+		@keyframes BOXC{
+		    0% {
+				 top:0px;
+				 left:0px;
+			}
+			25%{
+				top:0px;
+				left:200px;
+			}
+				50% {
+				top:200px;
+				left:200px;
+			}
+				75% {
+				top:200px;
+				left: 0px;
+			}
+				100% {
+				top: 0px;
+				left:0px;
+			}
+		}
+		
+	
+	</style>
+	</head>
+	<body>
+		<div class="Box"></div>
+	</body>
+</html>
